@@ -83,9 +83,8 @@ img {
 .slider-box-item img {
   min-height: 600px;
   width: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  object-fit: cover;
+  object-position: center;
 }
 
 .slider-box-item::before {
@@ -209,6 +208,10 @@ img {
 
 .collection-item-box {
   background-color: #323232;
+}
+
+.collection-item-box h3{
+  float:left;
 }
 
 .collection-item-title {
